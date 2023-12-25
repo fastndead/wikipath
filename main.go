@@ -53,7 +53,7 @@ func findClosestLink(startLink string, targetLink string) []string {
 				newPath := append(path, normalizeUrl(link))
 				paths = append(paths, newPath)
 				if link == targetLink {
-					fmt.Println("Found the node!")
+					fmt.Println("Found the path!")
 					fmt.Println(newPath)
 					return newPath
 				}
