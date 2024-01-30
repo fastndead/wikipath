@@ -7,7 +7,7 @@ Have you ever wondered what's the shortest number of clicks that would get you f
 To use this program, run the following command:
 
 ```
-go run main.go<start_url> <end_url>
+go run main.go <start_url> <end_url>
 ```
 
 Replace <start_url> and <end_url> with the URLs of the Wikipedia pages you want to find the shortest path between.
